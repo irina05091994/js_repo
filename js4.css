@@ -1,0 +1,92 @@
+body {
+      font-family: 'Roboto', sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #C4C4C4;
+    }
+
+    .autocomplete-container {
+      position: relative;
+      width: 500px;
+      margin-bottom: 50px;
+      border-radius: 4px;
+      background-color: #E3E3E3;
+      margin: 0, auto;
+       margin-top: 62px;
+       margin-bottom: 265px;
+    }
+
+    #search-input {
+      width: 500px;
+      padding: 10px;
+      font-size: 48px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+
+    #suggestions {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #E3E3E3;
+      border: 2px solid #000;
+      border-top: none;
+      overflow-y: auto;
+      z-index: 10;
+      display: none;
+    }
+
+    .suggestion-item {
+      padding-left: 13px;
+      height: 44px;
+      font-size: 30px;
+      cursor: pointer;
+      border-bottom: 2px solid #000;
+    }
+
+    .suggestion-item:hover {
+      background-color: #65CDF9;
+    }
+
+    #repo-list {
+      list-style: none;
+      padding: 0;
+
+    }
+
+    .repo-list__element {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px;
+      border: 1px solid #000;
+      border-radius: 4px;
+      font-size: 24px;
+      width: 500px;
+      height: 100px;
+      background-color: #E27BEB;
+    }
+
+    .repo-info {
+      font-size: 24px;
+      display: grid;
+    }
+
+
+    .remove-btn {
+      color: #FF0000;
+      font-size: 80px;
+      padding: 6px 10px;
+      background-color: #E27BEB;
+      border: none;
+      cursor: pointer;
+    }
+
+    .remove-btn:hover {
+      color: #65CDF9;
+    }
+
+    
